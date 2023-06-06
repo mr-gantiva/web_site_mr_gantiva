@@ -107,6 +107,7 @@ body {
         .left-side-container, .right-container {
             width: 50%;
             display: flex;
+            padding: 30px;
             flex-direction: column;
             background-color: rgba(255, 255, 255, 0.09);
             border-radius: 16px;
@@ -117,19 +118,23 @@ body {
             .subtitulo-container {
                 color: #a0acbe;
                 width: 100%;
-                padding: 0px 20px 0 20px;
+                font-size: 1.1rem;
+                min-height: 80px;
             }
             .texto-container {
-              padding: 20px;
+              font-size: 1rem;
               span {
                 color: #fafaf5;
+              }
+              .icon-texto {
+                width: 25px;
+                height: 25px;
               }
             }
             .img-perfil-container {
               display: flex;
               justify-content: center;
               align-items: center;
-              padding: 20px;
               min-height: 170px;
               img {
                 border-radius: 50%;
@@ -142,9 +147,14 @@ body {
               }
             }
             .img-icon-container {
+              span {
+                font-size: 100px;
+                text-align: center;
+              }
               display: flex;
               justify-content: space-between;
               align-items: center;
+              justify-content: center;
               padding: 20px;
               min-height: 170px;
               img {

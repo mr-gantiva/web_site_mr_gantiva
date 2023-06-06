@@ -109,6 +109,7 @@ body .container .main-container {
 body .container .main-container .left-side-container, body .container .main-container .right-container {
   width: 50%;
   display: flex;
+  padding: 30px;
   flex-direction: column;
   background-color: rgba(255, 255, 255, 0.09);
   border-radius: 16px;
@@ -120,19 +121,23 @@ body .container .main-container .left-side-container, body .container .main-cont
 body .container .main-container .left-side-container .subtitulo-container, body .container .main-container .right-container .subtitulo-container {
   color: #a0acbe;
   width: 100%;
-  padding: 0px 20px 0 20px;
+  font-size: 1.1rem;
+  min-height: 80px;
 }
 body .container .main-container .left-side-container .texto-container, body .container .main-container .right-container .texto-container {
-  padding: 20px;
+  font-size: 1rem;
 }
 body .container .main-container .left-side-container .texto-container span, body .container .main-container .right-container .texto-container span {
   color: #fafaf5;
+}
+body .container .main-container .left-side-container .texto-container .icon-texto, body .container .main-container .right-container .texto-container .icon-texto {
+  width: 25px;
+  height: 25px;
 }
 body .container .main-container .left-side-container .img-perfil-container, body .container .main-container .right-container .img-perfil-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
   min-height: 170px;
 }
 body .container .main-container .left-side-container .img-perfil-container img, body .container .main-container .right-container .img-perfil-container img {
@@ -148,8 +153,13 @@ body .container .main-container .left-side-container .img-icon-container, body .
   display: flex;
   justify-content: space-between;
   align-items: center;
+  justify-content: center;
   padding: 20px;
   min-height: 170px;
+}
+body .container .main-container .left-side-container .img-icon-container span, body .container .main-container .right-container .img-icon-container span {
+  font-size: 100px;
+  text-align: center;
 }
 body .container .main-container .left-side-container .img-icon-container img, body .container .main-container .right-container .img-icon-container img {
   width: 100px;

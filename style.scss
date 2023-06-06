@@ -73,13 +73,9 @@ body {
     }
   }
   main {
+    width: 100%;
     min-height: calc(100vh - 200px);
     margin: 50px auto;
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
-    .principal-container {
-      scroll-snap-align: start;
-    }
   }
   .index-container {
     min-height: 100vh;
